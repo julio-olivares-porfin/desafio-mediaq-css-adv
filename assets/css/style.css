@@ -97,8 +97,12 @@ section {
 .product-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding: 2rem 1rem;
+  padding: 3rem 3rem;
+  width: 100%;
+}
+
+.card {
+  padding: 0 20px 40px;
 }
 
 .card-container {
@@ -128,6 +132,7 @@ img {
 
 .card-title h4 {
   font-size: 1.5rem;
+  overflow: hidden;
 }
 
 .card-title h5 {
